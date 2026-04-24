@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Intersection Observer for fade-in animations
+// Intersection Observer for fade-in animationsa
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
